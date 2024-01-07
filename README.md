@@ -23,7 +23,7 @@ Data types are declarations for variables. This determines the type and size of 
 There are 2 types of Data Types:-
 1)Primitive Data Types: to store simple values
 These are the data types of fixed size
-### Include Tables:
+### Primitive Datatypes:
 ```markdown
 |Data Type    |        Meaning                          |   Size(in Bytes)   |          Range                                        |
 |-------------|-----------------------------------------|--------------------|-------------------------------------------------------|
@@ -35,7 +35,7 @@ These are the data types of fixed size
 |double       | Double floating-point                   |       8            |          Upto 16 decimal digits                       |
 |char         | Character                               |       2            | a,b,c,.....A,B,C,......@,#,$,....                     |
 |bool         | Boolean                                 |       1            |          True,False                                   |
-
+```
 2)Non-Primitive Data Types: to store complex values      
 These are of variable size & are usually declared with a "new" keyword.
 E.g. String, Arrays
@@ -56,7 +56,7 @@ public class Example {
          System.out.println(PI);
     }
 }
-
+```
 
 ## OOPs (Object Oriented Programming System):
 Object is any real world entity like a pen, a table, a chair, etc. Object is a instance of a class. Object can be any physical or logical entity. Object Oriented Programming is a methodolgy or paradigm to design a program using classes and objects. Java is purely object oriented, it means everything in java is described inside a class. Class is a collection of objects. It is a logical entity. OOPs simplifies software development and maintenance by providing some concepts as described below :
